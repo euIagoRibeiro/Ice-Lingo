@@ -1,11 +1,19 @@
 
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
 @import url(styles/header.css);
 @import url(styles/section1.css);
 @import url(styles/footer.css);
 
 :root {
+    --primary-font: "M PLUS Rounded 1c", serif;
+    --second-font: "Nunito", sans-serif;
     --color-black: #000;
+    --color-gray: #2E2D36;
     --color-white: #fff;
+    --color-purple: #A66CEE;
+    --color-purple2: #9b65dd;
+    --color-blue: #36ACCD;
 }
 
 * {
@@ -14,12 +22,12 @@
 }
 
 body {
+    font-family: var(--second-font);
     box-sizing: border-box;
     color: var(--color-black);
 }
 
 a {
-    color: var(--color-white);
     text-decoration: none;
 }
 
