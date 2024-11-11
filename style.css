@@ -3,6 +3,9 @@
 
 @import url(styles/header.css);
 @import url(styles/section1.css);
+@import url(styles/section2.css);
+@import url(styles/section3.css);
+@import url(styles/section4.css);
 @import url(styles/footer.css);
 
 :root {
@@ -14,16 +17,21 @@
     --color-purple: #A66CEE;
     --color-purple2: #9b65dd;
     --color-blue: #36ACCD;
+
+    --background-color1: #EFE1FF;
+    --background-color2: #FFD1E5;
+    --background-color3: #B0E8E9;
+    --background-color4: #F7D9B2;
 }
 
 * {
     padding: 0;
     margin: 0;
+    box-sizing: border-box;
 }
 
-body {
+html, body {
     font-family: var(--second-font);
-    box-sizing: border-box;
     color: var(--color-black);
 }
 

@@ -1,15 +1,15 @@
-.section1-conatiner {
-    background-color: var(--color-white);
+.section1-container {
+    background-color: var(--background-color1);
     width: 100%;
-    height: 100vh;
+    height: 90vh;
 }
 
 .section1-content {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 0rem;
-    padding: 4% 0% 0% 0%;
+    gap: 4rem;
+    padding: 8% 10% 2% 10%;
 }
 
 .section1-content-images > img {
@@ -20,13 +20,13 @@
     display: flex;
     flex-direction: column;
     gap: 3rem;
-    margin: 5% 0% 0% 0%;
+    width: 40%;
+    margin: 4% 0% 0% 0%;
 }
 
 .section1-content-text > h1 {
-    padding: 0% 15% 0% 15% ;
     text-align: center;
-    font-size: 1.8rem;
+    font-size: 2rem;
     font-weight: 800;
     color: var(--color-gray);
 }
@@ -49,7 +49,7 @@
 
 .section1-button-link:hover {
     background-color: var(--color-purple2);
-    padding-left: 30%;
+    padding-left: 20%;
 }
 
 /* RESPONSIVE */

@@ -1,0 +1,35 @@
+.section2-container {
+    background-color: var(--background-color2);
+}
+
+.section2-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8rem;
+    padding: 17% 15% 17% 13%;
+
+}
+
+.section2-content-text {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    text-align: center;
+    color: var(--color-gray);
+    width: 48%;
+
+}
+
+.section2-title {
+    font-size: 2rem;
+    font-weight: 800;
+}
+
+.section2-desc {
+    font-size: 1.5rem;
+}
+
+.section2-image {
+    width: 15vw;
+}
