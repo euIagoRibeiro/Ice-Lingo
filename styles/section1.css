@@ -49,7 +49,7 @@
 
 .section1-button-link:hover {
     background-color: var(--color-purple2);
-    padding-left: 20%;
+    transform: scale(1.1);
 }
 
 /* RESPONSIVE */
@@ -59,7 +59,7 @@
     .section1-content {
         display: flex;
         flex-direction: column;
-        padding: 12% 0% 0% 0%;
+        padding: 20% 0% 0% 0%;
         gap: 2rem;
     }
 
@@ -67,9 +67,14 @@
         width: 85vw;
     }
 
+    .section1-content-text {
+        width: 80%;
+    }
+
     .section1-content-text > h1 {
-        padding: 0% 7% 0% 7%;
+        display: flex;
         font-size: 1.5rem;
+        margin: 0%;
     }
 
     .section1-button-content {

@@ -33,3 +33,24 @@
 .section2-image {
     width: 15vw;
 }
+
+/* RESPONSIVE */
+
+@media (min-width: 0px) and (max-width: 850px) {
+
+    .section2-content {
+        display: flex;
+        flex-direction: column-reverse;
+        gap: 4rem;
+        padding: 20% 0% 40% 0%;
+    }
+
+    .section2-content-text {
+        width: 80%;
+    }
+
+    .section2-image {
+        padding-left: 0.8rem;
+        width: 50vw;
+    }
+}

@@ -47,5 +47,24 @@
 
 .section4-button-link:hover {
     background-color: var(--color-purple2);
-    padding-left: 20%;
+    transform: scale(1.1);
+}
+
+@media (min-width: 0px) and (max-width: 850px) {
+
+    .section4-content {
+        padding: 20% 0% 40% 0%;
+    }
+
+    .section4-image {
+        width: 55vw;
+    }
+
+    .section4-content-text {
+        gap: 3rem;
+    }
+
+    .section4-content-text > h2 {
+        width: 80vw;
+    }
 }

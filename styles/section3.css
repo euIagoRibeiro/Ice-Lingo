@@ -32,3 +32,22 @@
 .section3-desc {
     font-size: 1.5rem;
 }
+
+@media (min-width: 0px) and (max-width: 850px) {
+
+    .section3-content {
+        display: flex;
+        flex-direction: column;
+        gap: 4rem;
+        padding: 20% 0% 40% 0%;
+    }
+
+    .section3-image {
+        width: 55vw;
+        padding-right: 0.5rem;
+    }
+
+    .section3-content-text {
+        width: 80%;
+    }
+}
