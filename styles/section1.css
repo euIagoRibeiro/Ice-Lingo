@@ -59,7 +59,7 @@
     .section1-content {
         display: flex;
         flex-direction: column;
-        padding: 18% 0% 0% 0%;
+        padding: 16% 0% 0% 0%;
         gap: 2rem;
     }
 
@@ -83,7 +83,7 @@
     }
 
     .section1-button-link {
-        padding: 8% 15% 8% 15%;
+        padding: 5% 15% 5% 15%;
     }
 
     .section1-button-link:hover {

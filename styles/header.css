@@ -1,5 +1,5 @@
 .header-container {
-    background-color: transparent;
+    background-color: var(--background-color1);
 }
 
 .header-content {
@@ -18,7 +18,6 @@
 
 .header-logo-content > img {
     width: 4vw;
-    border-radius: 2rem;
     transition: .4s;
 }
 
