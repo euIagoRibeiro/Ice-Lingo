@@ -9,7 +9,7 @@
     align-items: center;
     justify-content: center;
     gap: 10rem;
-    padding: 6% 0% 0% 0%;
+    padding: 5% 0% 0% 0%;
 }
 
 .section1-content-images > img {
@@ -55,4 +55,22 @@
 
 .section1-buttons-links:hover {
     transform: scale(1.05);
+}
+
+@media (min-width: 0px) and (max-width: 850px) {
+
+    .section1-content {
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .section1-content-images > img {
+        width: 65vw;
+        padding-right: 1rem;
+    }
+
+    .section1-content-text {
+        width: 80%;
+    }
 }
