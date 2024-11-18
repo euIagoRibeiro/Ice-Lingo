@@ -59,12 +59,13 @@
     .section1-content {
         display: flex;
         flex-direction: column;
-        padding: 20% 0% 0% 0%;
+        padding: 18% 0% 0% 0%;
         gap: 2rem;
     }
 
     .section1-content-images > img {
-        width: 85vw;
+        width: 90vw;
+        padding-left: 4.5%;
     }
 
     .section1-content-text {
@@ -73,7 +74,7 @@
 
     .section1-content-text > h1 {
         display: flex;
-        font-size: 1.5rem;
+        font-size: 1.8rem;
         margin: 0%;
     }
 
@@ -82,7 +83,7 @@
     }
 
     .section1-button-link {
-        padding: 4.5% 10% 4.5% 10%;
+        padding: 8% 15% 8% 15%;
     }
 
     .section1-button-link:hover {

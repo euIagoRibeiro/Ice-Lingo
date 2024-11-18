@@ -14,7 +14,7 @@
 
 .section4-image {
     width: 17vw;
-    padding: 0% 0% 0% 10%;
+    padding-left: 10%;
 }
 
 .section4-content-text {
@@ -22,6 +22,7 @@
     flex-direction: column;
     gap: 2.5rem;
     text-align: center;
+    color: var(--color-gray);
 }
 
 .section4-title {
@@ -53,11 +54,12 @@
 @media (min-width: 0px) and (max-width: 850px) {
 
     .section4-content {
-        padding: 20% 0% 40% 0%;
+        padding: 40% 0% 50% 0%;
     }
 
     .section4-image {
-        width: 55vw;
+        width: 60vw;
+        padding-left: 11%;
     }
 
     .section4-content-text {
@@ -66,5 +68,13 @@
 
     .section4-content-text > h2 {
         width: 80vw;
+    }
+
+    .section4-button-content {
+        padding: 0% 10% 0% 10%;
+    }
+    
+    .section4-button-link {
+        padding: 8% 15% 8% 15%;
     }
 }

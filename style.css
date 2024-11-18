@@ -33,6 +33,7 @@
 html, body {
     font-family: var(--second-font);
     color: var(--color-black);
+    background-color: black;
 }
 
 a {
