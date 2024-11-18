@@ -8,13 +8,13 @@
     justify-content: center;
     align-items: center;
     gap: 4rem;
-    padding: 10% 15% 10% 13%;
+    padding: 9% 15% 11% 13%;
 
 }
 
 .section4-image {
     width: 17vw;
-    padding-left: 10%;
+    padding-left: 12%;
 }
 
 .section4-content-text {
@@ -54,7 +54,7 @@
 @media (min-width: 0px) and (max-width: 850px) {
 
     .section4-content {
-        padding: 40% 0% 50% 0%;
+        padding: 40% 0% 60% 0%;
     }
 
     .section4-image {
