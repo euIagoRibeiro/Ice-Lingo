@@ -43,7 +43,7 @@ a {
 .game-container {
     background-color: var(--background-color4);
     width: 40rem;
-    height: 400px;
+    height: 450px;
     border-radius: 1rem;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
     display: flex;
@@ -53,6 +53,7 @@ a {
     gap: 1rem;
     font-family: var(--second-font);
     color: var(--color-gray);
+    margin: 0% 0% 5% 0% ;
 }
 
 .game-text {
@@ -72,7 +73,7 @@ a {
 
 .content-word {
     font-family: var(--primary-font);
-    font-size: 1.5rem;
+    font-size: 2rem;
 }
 
 #options-container {
@@ -100,6 +101,14 @@ a {
 .option-button:hover {
     background-color: var(--color-purple);
 
+}
+
+.option-button-emoji {
+    font-size: 2rem;
+}
+
+.option-button-text {
+    font-family: var(--primary-font);
 }
 
 .option-button.selected {
@@ -136,6 +145,7 @@ a {
 
     .game-container {
         width: 22rem;
+        height: 425px;
     }
 
     .game-text {

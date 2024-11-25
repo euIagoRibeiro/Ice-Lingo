@@ -84,7 +84,7 @@ const words = [
   
     shuffledEnglish.forEach((word) => {
       const li = document.createElement("li");
-      li.textContent = word.english;
+      li.textContent = `${word.english} ${word.emoji}`;
       li.dataset.english = word.english;
       li.addEventListener("click", () => selectEnglish(li));
       englishList.appendChild(li);
@@ -92,7 +92,7 @@ const words = [
   
     shuffledPortuguese.forEach((word) => {
       const li = document.createElement("li");
-      li.textContent = `${word.portuguese} ${word.emoji}`;
+      li.textContent = word.portuguese;
       li.dataset.portuguese = word.portuguese;
       li.addEventListener("click", () => selectPortuguese(li));
       portugueseList.appendChild(li);

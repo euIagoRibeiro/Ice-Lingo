@@ -90,9 +90,11 @@ const words = [
       button.classList.add("option-button");
   
       const emojiSpan = document.createElement("span");
+      emojiSpan.classList.add("option-button-emoji");
       emojiSpan.textContent = option.emoji;
   
       const text = document.createElement("span");
+      text.classList.add("option-button-text");
       text.textContent = option.en;
   
       button.appendChild(emojiSpan);
