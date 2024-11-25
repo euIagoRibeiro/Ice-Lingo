@@ -43,7 +43,7 @@ a {
 .game-container {
     background-color: var(--background-color4);
     width: 40rem;
-    height: 450px;
+    height: 500px;
     border-radius: 1rem;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
     display: flex;
@@ -63,8 +63,14 @@ a {
     gap: 1rem;
 }
 
-.game-text > img {
-     width: 8vw;
+.game-image-1 {
+    width: 80px;
+    height: 80px;
+}
+
+.game-image-2 {
+    width: 80px;
+    height: 80px;
 }
 
 .content-text {
@@ -119,18 +125,25 @@ a {
 #check-button {
     border: none;
     border-radius: 0.5rem;
-    padding: 10px 20px;
+    /* padding: 10px 20px; */
+    padding: 2% 4.5% 2% 4.5%;
     font-size: 16px;
     cursor: pointer;
 }
 
 #feedback {
     font-weight: bold;
+    margin: 0.5% 0% 0.5% 0%;
 }
 
 .return-text {
+    display: flex;
+    justify-content: left;
     font-family: var(--primary-font);
     transition: .4s;
+    background-color: var(--background-color1);
+    padding: 1.5% 6.5% 1.5% 6.5%;
+    border-radius: 0.5rem;
 }
 
 .return-text:hover {
@@ -144,7 +157,7 @@ a {
     }
 
     .game-container {
-        width: 22rem;
+        width: 23rem;
         height: 425px;
     }
 
