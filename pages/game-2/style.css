@@ -1,0 +1,103 @@
+
+/* PRESETS */
+
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+:root {
+    --primary-font: "M PLUS Rounded 1c", serif;
+    --second-font: "Nunito", sans-serif;
+    --color-black: #000;
+    --color-gray: #2E2D36;
+    --color-white: #fff;
+    --color-purple: #A66CEE;
+    --color-purple2: #9b65dd;
+    --color-blue: #36ACCD;
+
+    --background-color1: #EFE1FF;
+    --background-color2: #FFD1E5;
+    --background-color3: #B0E8E9;
+    --background-color4: #F7D9B2;
+}
+
+a {
+    text-decoration: none;
+    color: var(--color-black);
+}
+
+/* STYLE */
+
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: var(--background-color1);
+    margin: 0;
+    padding: 5% 0% 0% 0%;
+  }
+  
+  #game-container {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px auto;
+    max-width: 800px;
+  }
+  
+  .side {
+    width: 80%;
+    background-color: var(--background-color4);
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+  }
+  
+  h2 {
+    margin-bottom: 20px;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  li {
+    padding: 10px;
+    margin: 10px 0;
+    background: var(--background-color1);
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  li.correct {
+    background: #d4edda;
+    border-color: #28a745;
+  }
+  
+  li.wrong {
+    background: #f8d7da;
+    border-color: #dc3545;
+  }
+  
+  li:hover {
+    background-color: var(--color-purple);
+  }
+  
+  #message {
+    margin: 10px auto 20px;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  @media (min-width: 0px) and (max-width: 850px) {
+    #game-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+  }
