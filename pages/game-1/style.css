@@ -52,6 +52,7 @@ a {
     justify-content: center;
     gap: 1rem;
     font-family: var(--second-font);
+    color: var(--color-gray);
 }
 
 .game-text {
@@ -87,7 +88,7 @@ a {
     flex-direction: column;
     gap: 0.5rem;
     margin: 10px auto;
-    padding: 10px 20px;
+    padding: 10px 15px;
     font-size: 16px;
     cursor: pointer;
     background-color: var(--background-color1);
@@ -128,12 +129,21 @@ a {
 }
 
 @media (min-width: 0px) and (max-width: 850px) {
+
+    .game-background {
+        height: 95vh;
+    }
+
     .game-container {
-        width: 25rem;
+        width: 22rem;
+    }
+
+    .game-text {
+        gap: 0.5rem;
     }
 
     .game-text > img {
-        width: 10vw;
+        width: 20vw;
    }
 }
 

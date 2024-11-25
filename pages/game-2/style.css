@@ -38,7 +38,8 @@ body {
     text-align: center;
     background-color: var(--background-color1);
     margin: 0;
-    padding: 5% 0% 0% 0%;
+    padding: 10% 0% 0% 0%;
+    color: var(--color-gray);
   }
   
   #game-container {
