@@ -56,10 +56,13 @@ a {
 
 .game-text {
     display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
 }
 
 .game-text > img {
-     width: 5vw;
+     width: 8vw;
 }
 
 .content-text {
@@ -118,5 +121,9 @@ a {
     .game-container {
         width: 25rem;
     }
+
+    .game-text > img {
+        width: 10vw;
+   }
 }
 

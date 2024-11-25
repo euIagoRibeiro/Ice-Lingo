@@ -65,20 +65,14 @@ const words = [
   let currentWord = null;
   let selectedOption = null;
   
-  // Função para embaralhar um array
   function shuffleArray(array) {
     return array.sort(() => Math.random() - 0.5);
   }
   
-  // Gera uma nova palavra e opções
   function startGame() {
-    // Seleciona uma palavra aleatória
     currentWord = words[Math.floor(Math.random() * words.length)];
-  
-    // Preenche a palavra em português
     document.getElementById("word-to-translate").textContent = currentWord.pt;
-  
-    // Gera opções aleatórias
+    
     const options = [currentWord];
     while (options.length < 3) {
       const randomWord = words[Math.floor(Math.random() * words.length)];
@@ -87,7 +81,6 @@ const words = [
       }
     }
   
-    // Embaralha as opções e adiciona no DOM
     const shuffledOptions = shuffleArray(options);
     const optionsContainer = document.getElementById("options-container");
     optionsContainer.innerHTML = ""; // Limpa opções anteriores
@@ -96,7 +89,6 @@ const words = [
       const button = document.createElement("button");
       button.classList.add("option-button");
   
-      // Adiciona emoji e texto
       const emojiSpan = document.createElement("span");
       emojiSpan.textContent = option.emoji;
   
@@ -110,28 +102,20 @@ const words = [
       optionsContainer.appendChild(button);
     });
   
-    // Reset feedback e botão
     document.getElementById("feedback").textContent = "";
     document.getElementById("check-button").disabled = true;
     selectedOption = null;
   }
-  
-  // Marca a opção selecionada
+
   function selectOption(button, option) {
     selectedOption = option;
   
-    // Remove seleção de outros botões
     const buttons = document.querySelectorAll(".option-button");
     buttons.forEach(btn => btn.classList.remove("selected"));
-  
-    // Marca o botão selecionado
     button.classList.add("selected");
-  
-    // Habilita o botão de verificar
     document.getElementById("check-button").disabled = false;
   }
   
-  // Verifica a resposta
   function checkAnswer() {
     const feedback = document.getElementById("feedback");
     if (selectedOption === currentWord.en) {
@@ -141,14 +125,10 @@ const words = [
       feedback.textContent = `Errado! A resposta correta é "${currentWord.en}".`;
       feedback.style.color = "red";
     }
-  
-    // Inicia uma nova rodada após 2 segundos
+
     setTimeout(startGame, 2000);
   }
   
-  // Event Listener do botão de verificar
   document.getElementById("check-button").addEventListener("click", checkAnswer);
-  
-  // Inicia o jogo ao carregar
   startGame();
   
