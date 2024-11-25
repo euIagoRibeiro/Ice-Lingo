@@ -1,0 +1,122 @@
+
+/* PRESETS */
+
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+:root {
+    --primary-font: "M PLUS Rounded 1c", serif;
+    --second-font: "Nunito", sans-serif;
+    --color-black: #000;
+    --color-gray: #2E2D36;
+    --color-white: #fff;
+    --color-purple: #A66CEE;
+    --color-purple2: #9b65dd;
+    --color-blue: #36ACCD;
+
+    --background-color1: #EFE1FF;
+    --background-color2: #FFD1E5;
+    --background-color3: #B0E8E9;
+    --background-color4: #F7D9B2;
+}
+
+a {
+    text-decoration: none;
+    color: var(--color-black);
+}
+
+/* STYLE */
+
+.game-background {
+    background-color: var(--background-color1);
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.game-container {
+    background-color: var(--background-color4);
+    width: 40rem;
+    height: 400px;
+    border-radius: 1rem;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    font-family: var(--second-font);
+}
+
+.game-text {
+    display: flex;
+}
+
+.game-text > img {
+     width: 5vw;
+}
+
+.content-text {
+    margin: 2% 0% 0% 0%;
+}
+
+.content-word {
+    font-family: var(--primary-font);
+    font-size: 1.5rem;
+}
+
+#options-container {
+    display: flex;
+    gap: 1rem;
+}
+
+.option-button {
+    display: block;
+    margin: 10px auto;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #ddd;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.option-button:hover {
+    background-color: #ccc;
+
+}
+
+.option-button.selected {
+    background-color: #5cb85c;
+    color: white;
+}
+
+#check-button {
+    border: none;
+    border-radius: 0.5rem;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#feedback {
+    font-weight: bold;
+}
+
+.return-text {
+    font-family: var(--primary-font);
+}
+
+@media (min-width: 0px) and (max-width: 850px) {
+    .game-container {
+        width: 25rem;
+    }
+}
+
