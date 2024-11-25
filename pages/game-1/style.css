@@ -81,23 +81,28 @@ a {
 
 .option-button {
     display: block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 0.5rem;
     margin: 10px auto;
     padding: 10px 20px;
     font-size: 16px;
     cursor: pointer;
-    background-color: #ddd;
+    background-color: var(--background-color1);
     border: none;
     border-radius: 5px;
     transition: background-color 0.3s ease;
 }
 
 .option-button:hover {
-    background-color: #ccc;
+    background-color: var(--color-purple);
 
 }
 
 .option-button.selected {
-    background-color: #5cb85c;
+    background-color: var(--color-purple2);
     color: white;
 }
 
@@ -115,6 +120,11 @@ a {
 
 .return-text {
     font-family: var(--primary-font);
+    transition: .4s;
+}
+
+.return-text:hover {
+    transform: scale(1.05);
 }
 
 @media (min-width: 0px) and (max-width: 850px) {
