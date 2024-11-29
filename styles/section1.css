@@ -19,9 +19,8 @@
 .section1-content-text {
     display: flex;
     flex-direction: column;
-    gap: 4rem;
+    gap: 2rem;
     width: 40%;
-    margin: 5% 0% 0% 0%;
 }
 
 .section1-content-text > h1 {
@@ -60,7 +59,7 @@
         display: flex;
         flex-direction: column;
         padding: 16% 0% 0% 0%;
-        gap: 2rem;
+        gap: 4rem;
     }
 
     .section1-content-images > img {
@@ -70,6 +69,7 @@
 
     .section1-content-text {
         width: 80%;
+        gap: 2.5rem;
     }
 
     .section1-content-text > h1 {
