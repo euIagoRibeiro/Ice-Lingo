@@ -9,7 +9,7 @@
     align-items: center;
     justify-content: center;
     gap: 10rem;
-    padding: 5% 0% 0% 0%;
+    padding: 6% 0% 0% 0%;
 }
 
 .section1-content-images > img {
@@ -20,12 +20,13 @@
     display: flex;
     flex-direction: column;
     text-align: center;
-    width: 30%;
+    width: 40%;
     gap: 2rem;
     margin: 2% 0% 0% 0%;
 }
 
 .section1-content-text > h2 {
+    font-size: 2rem;
     font-weight: 800;
     color: var(--color-gray);
 }
@@ -38,7 +39,7 @@
 }
 
 .section1-buttons-content {
-    padding: 0% 20% 0% 20%;
+    padding: 0% 30% 0% 30%;
 }
 
 .section1-buttons-links {
@@ -71,6 +72,15 @@
     }
 
     .section1-content-text {
-        width: 80%;
+        width: 85%;
+        gap: 2rem;
+    }
+
+    .section1-content-text > h2 {
+        font-size: 1.8rem;
+    }
+
+    .section1-buttons-content {
+        padding: 0% 20% 0% 20%;
     }
 }

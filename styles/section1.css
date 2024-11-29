@@ -9,7 +9,7 @@
     justify-content: center;
     align-items: center;
     gap: 4rem;
-    padding: 8% 10% 2% 10%;
+    padding: 6% 10% 2% 10%;
 }
 
 .section1-content-images > img {
@@ -19,9 +19,9 @@
 .section1-content-text {
     display: flex;
     flex-direction: column;
-    gap: 3rem;
+    gap: 4rem;
     width: 40%;
-    margin: 4% 0% 0% 0%;
+    margin: 5% 0% 0% 0%;
 }
 
 .section1-content-text > h1 {
