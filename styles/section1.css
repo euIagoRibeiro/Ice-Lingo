@@ -58,8 +58,8 @@
     .section1-content {
         display: flex;
         flex-direction: column;
-        padding: 16% 0% 0% 0%;
-        gap: 4rem;
+        padding: 15% 0% 0% 0%;
+        gap: 3rem;
     }
 
     .section1-content-images > img {
@@ -69,13 +69,12 @@
 
     .section1-content-text {
         width: 80%;
-        gap: 2.5rem;
+        gap: 3rem;
     }
 
     .section1-content-text > h1 {
         display: flex;
         font-size: 1.8rem;
-        margin: 0%;
     }
 
     .section1-button-content {

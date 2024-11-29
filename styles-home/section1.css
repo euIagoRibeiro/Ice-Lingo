@@ -58,6 +58,10 @@
     transform: scale(1.05);
 }
 
+.link2 {
+    padding: 0% 0% 2.9% 0%;
+}
+
 @media (min-width: 0px) and (max-width: 850px) {
 
     .section1-content {

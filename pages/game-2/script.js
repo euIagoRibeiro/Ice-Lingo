@@ -1,5 +1,3 @@
-// script.js
-
 const words = [
     { portuguese: "maçã", english: "apple", emoji: " 🍎 " },
     { portuguese: "gato", english: "cat", emoji: " 🐱 " },

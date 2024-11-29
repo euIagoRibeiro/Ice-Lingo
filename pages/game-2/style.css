@@ -17,11 +17,14 @@
     --color-purple: #A66CEE;
     --color-purple2: #9b65dd;
     --color-blue: #36ACCD;
+    --color-border: #d8afc0;
 
     --background-color1: #EFE1FF;
     --background-color2: #FFD1E5;
     --background-color3: #B0E8E9;
     --background-color4: #F7D9B2;
+
+
 }
 
 a {
@@ -38,7 +41,7 @@ body {
     text-align: center;
     background-color: var(--background-color1);
     margin: 0;
-    padding: 10% 0% 0% 0%;
+    padding: 3% 0% 0% 0%;
     color: var(--color-gray);
   }
   
@@ -51,14 +54,10 @@ body {
   
   .side {
     width: 80%;
-    background-color: var(--background-color4);
-    padding: 20px;
-    border: 1px solid #ccc;
+    background-color: var(--background-color1);
+    padding: 2% 4% 2% 4%;
+    border: 2px solid var(--color-border);
     border-radius: 8px;
-  }
-  
-  h2 {
-    margin-bottom: 20px;
   }
   
   ul {
@@ -69,18 +68,19 @@ body {
   li {
     padding: 25px;
     margin: 10px 0;
-    background: var(--background-color1);
+    background: var(--background-color2);
     border-radius: 5px;
     cursor: pointer;
+    transition: .4s;
   }
   
   li.correct {
-    background: #d4edda;
-    border-color: #28a745;
+    background: #8de4a1;
+    border-color: #2fdd58;
   }
   
   li.wrong {
-    background: #f8d7da;
+    background: #ff808a;
     border-color: #dc3545;
   }
   
@@ -93,11 +93,42 @@ body {
     font-size: 18px;
     font-weight: bold;
   }
+
+  .game-text {
+    font-family: var(--primary-font);
+    font-weight: 800;
+    color: var(--color-gray);
+  }
+
+  .text-title {
+    font-size: 1.5rem;
+  }
+  
+  .text-desc {
+    font-size: 1.5rem;
+  }
+
+  .content-text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+  }
+
+  .content-text > img {
+    width: 5vw;
+  }
+
+  .return-text {
+    color: var(--color-gray);
+    font-family: var(--second-font);
+    font-size: 1.2rem;
+  }
   
   @media (min-width: 0px) and (max-width: 850px) {
 
     body {
-      padding: 15% 0% 0% 0%;
+      padding: 10% 0% 0% 0%;
     }
 
     #game-container {
@@ -109,6 +140,18 @@ body {
 
     li {
       padding: 15px;
+    }
+
+    .text-title {
+      font-size: 1.2rem;
+    }
+    
+    .text-desc {
+      font-size: 1.2rem;
+    }
+
+    .content-text > img {
+      width: 15vw;
     }
 
   }
