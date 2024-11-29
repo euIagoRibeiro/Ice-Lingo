@@ -58,8 +58,16 @@ const words = [
     { pt: "batata frita", en: "french fries", emoji: "🍟 " },
     { pt: "pão", en: "bread", emoji: "🍞 " },
     { pt: "chocolate", en: "chocolate", emoji: "🍫 " },
-    { pt: "queijo", en: "cheese", emoji: "🧀 " }
-
+    { pt: "queijo", en: "cheese", emoji: "🧀 " },
+    { pt: "café", en: "coffee", emoji: "☕️ " },
+    { pt: "chá", en: "tea", emoji: "🍵 " },
+    { pt: "leite", en: "milk", emoji: "🥛 " },
+    { pt: "suco", en: "juice", emoji: "🍹 " },
+    { pt: "academia", en: "gym", emoji: "🏋️ " },
+    { pt: "biblioteca", en: "library", emoji: "📚 " },
+    { pt: "parque", en: "park", emoji: "🏞️ " },
+    { pt: "praia", en: "beach", emoji: "🏖️ " },
+    { pt: "onda", en: "wave", emoji: "🌊 " },
 ];
   
   let currentWord = null;

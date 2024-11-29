@@ -58,7 +58,15 @@ const words = [
     { portuguese: "batata frita", english: "french fries", emoji: " 🍟 " },
     { portuguese: "pão", english: "bread", emoji: " 🍞 " },
     { portuguese: "chocolate", english: "chocolate", emoji: " 🍫 " },
-    { portuguese: "queijo", english: "cheese", emoji: " 🧀 " }
+    { portuguese: "queijo", english: "cheese", emoji: " 🧀 " },
+    { portuguese: "café", english: "coffee", emoji: " ☕️ " },
+    { portuguese: "chá", english: "tea", emoji: " 🍵 " },
+    { portuguese: "leite", english: "milk", emoji: " 🥛 " },
+    { portuguese: "academia", english: "gym", emoji: " 🏋️ " },
+    { portuguese: "caminhada", english: "walk", emoji: " 🚶 " },
+    { portuguese: "corrida", english: "run", emoji: " 🏃 " },
+    { portuguese: "bicicleta", english: "bicycle", emoji: " 🚲 " },
+    { portuguese: "onda", english: "wave", emoji: " 🌊 " },
   ];
   
   let selectedEnglish = null;
